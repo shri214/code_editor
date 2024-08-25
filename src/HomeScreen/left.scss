@@ -1,0 +1,30 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    // mix-blend-mode: multiply; /* or use screen/lighten/darken based on the effect */
+    // background-color: black;
+  }
+  button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 90%;
+    height: 50px;
+    border-radius: 25px;
+    font-weight: 600;
+    gap: 5%;
+    font-size: 20px;
+    border: none;
+    transition: all .5s;
+  }
+  button:hover{
+    box-shadow: 2px 2px 4px rgb(205, 200, 200);
+  }
+}

@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  gap: 10px;
+  .inputContainer {
+    width: 100%;
+    .group,
+    .groups {
+      display: flex;
+      flex-flow: row;
+      justify-content: space-between;
+      align-items: center;
+      width: inherit;
+      background-color: rgba(200, 195, 195, 0.568);
+      padding: 10px 5px;
+      margin: 10px 0;
+      input {
+        width: 70%;
+        height: 40px;
+        border: none;
+        padding: 5px;
+        font-size: 20px;
+      }
+      input:focus {
+        outline: none;
+      }
+      label {
+        min-width: fit-content;
+      }
+    }
+    .groups {
+      background-color: white;
+      button {
+        height: 40px;
+        padding: 5px 10px;
+        border: 1px solid #ccc;
+        transition: all 0.3s;
+        background-color: white;
+      }
+      button:hover {
+        border-color: #888;
+      }
+    }
+  }
+}
