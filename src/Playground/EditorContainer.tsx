@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { IEditor, ILanguageValue, MainContainerProps } from "../dataDefinition/definition";
+import { IEditor, MainContainerProps } from "../dataDefinition/definition";
 import styled from "styled-components";
 import { languageMap } from "../Variables/languageMap";
 import { languageOptions } from "../Variables/language";

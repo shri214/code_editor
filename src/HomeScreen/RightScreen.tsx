@@ -153,7 +153,7 @@ export const RightScreen: React.FC = () => {
   };
   return (
     <StyledRightComponent>
-      <Header>
+      <Header style={{position:"sticky", top:0, right:0, background:"white"}}>
         <Heading size="large">
           My <span>Playground</span>
         </Heading>
@@ -201,7 +201,7 @@ export const RightScreen: React.FC = () => {
                           </CardContainer>
                           <FolderIcons
                             onClick={(e) => {
-                              e.stopPropagation(); //stop click propagation from child to parent
+                              e.stopPropagation(); 
                             }}
                           >
                             <IoTrashOutline
